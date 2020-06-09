@@ -12,7 +12,9 @@ createLists = () => {
   for (let yearCount = yearsToCreate; yearCount > 0; yearCount--) {
     let option = document.createElement("option");
     let now = new Date();
-    option.text = now.getFullYear() - yearCount;
+    let label = now.getFullYear() - yearCount;
+    option.text = label;
+    option.value = `./data/${label}`;
     yearDropDown.appendChild(option);
   }
 
