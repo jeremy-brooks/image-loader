@@ -1,0 +1,15 @@
+{
+  "name": "image-loader",
+  "version": "1.0.0",
+  "description": "loads images from a defined folder structure",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "moment": "^2.26.0"
+  }
+}
